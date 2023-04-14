@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+         
+        }
+        .conteiner{
+            width: 1250px;
+            border: solid 2px;
+            margin: 0 auto;
+        }
+        h1{
+            text-align: center;
+        }
+        img{
+            display: block;
+            padding: 20px;
+            border-radius: 30%;
+            background-color: coral;
+            margin: 0 auto;
+        }
+        input{
+            display: block;
+             /* margin:  0 100px; */
+        }
+    </style>
+</head>
+<body>
+<section>
+    <!-- <div class="conteiner">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7MUK_4hkEJ74tketph8dWZkrb4j9VO7oP8Q&usqp=CAU" alt="">
+        <h1>name and surname</h1>
+        <input type="text">
+    </div> -->
+    <p>tell me your age</p>
+</section>
+
+    <SCript> 
+        // console.log(window);
+        // console.log(document.body);
+        // document.body.style.backgroundColor =" blue"
+    alert("enter your age")
+    let x = prompt("whats your age")
+       x = Number.parseInt(x)
+       alert(typeof x)
+    //    document.write(x)
+    let write = confirm("do you want to wirte")
+    if (write) {
+        document.write(x)
+    }
+    else{
+        document.write("you dont put enter")
+    }
+
+    let marks = [78,87,91,56, "not present" , undefined]
+        console.log(marks[0]);
+        console.log(marks[1]);
+        console.log(marks[2]);
+        console.log(marks[3]);
+        console.log(marks[4]);
+        console.log(marks[5]);
+        marks [6] = 45
+        console.log(marks[6]);
+
+    </SCript>
+    
+</body>
+</html>
